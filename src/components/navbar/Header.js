@@ -44,7 +44,7 @@ const Header = () => {
     return (
       <Nav>
         <NavDropdown title="Management" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/management">My Panel</NavDropdown.Item>
+          <NavDropdown.Item href="/management">Management</NavDropdown.Item>
         </NavDropdown>
       </Nav>
     );

@@ -10,6 +10,14 @@ module.exports = function(app) {
           changeOrigin: true,
         })
       ),
+      app.use(
+        '/adminusers',
+        createProxyMiddleware({
+          target: 'http://localhost:5000',
+          changeOrigin: true,
+        })
+      ),
+      
       
       app.use(
         '/publicevent',
