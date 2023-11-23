@@ -21,7 +21,7 @@ if(events.length === 0) {
 
                 <p>{event.eventName}</p>
 
-                <a href={`/see_event/${event._id}`}></a>
+                <a href={`/see_event/${event._id}`}>SEE EVENT</a>
 
 
             </div>

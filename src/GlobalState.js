@@ -2,6 +2,7 @@ import { createContext } from "react"
 import AdminApi from "./api/AdminApi"
 import UsersApi from "./api/UsersApi"
 import EventsApi from "./api/EventsApi"
+import CategoryApi from "./api/CategoryApi"
 
 
 export const GlobalState = createContext()
@@ -14,6 +15,7 @@ let state = {
     AdminApi: AdminApi(),
     UsersApi: UsersApi(),
     EventsApi: EventsApi(),
+    CategoryApi: CategoryApi(),
     adminToken,
     
 
